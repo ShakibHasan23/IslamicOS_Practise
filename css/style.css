@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+
+}
+
+body{
+    background-color: #CBDFCF;
+    overflow-x: hidden;
+    
+
+}
+
+header{
+    
+    width: 1920px;
+    display: flex;
+    background-color: #f8f8f8;
+    justify-content:space-between;
+    align-items: center ;
+    padding: 30 10%;
+}
+
+.logo svg{
+    
+    margin-left: 155px;
+    cursor: pointer;
+}
+
+.navbar ul{
+    list-style: none;
+    margin-right: 106px;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 30px 20px;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #171717;
+    font-family: Poppins ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+.container1{
+    display: flex;
+}
+
+.tex1{
+    position: absolute;
+    width: 746.87px;
+    height: 312px;
+    left: 155px;
+    top: 313px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 77.0965px;
+    line-height: 98px;
+    color: #171717;
+}
+
+.cl1{
+    color:#298E5C;
+}
+
+.illustration1{
+    position: absolute;
+    width: 1046px;
+    height: 847px;
+    left: 840px;
+    top: 94px;
+}
+
+.downloadButton button{
+    position: absolute;
+    width: 299.19px;
+    height: 106px;
+    left: 155px;
+    top: 650px;
+
+    background: #298E5C;
+    border-radius: 26.6304px;
+    border: 0px;
+
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.9456px;
+    line-height: 51px;
+    color: #CBDFCF;
+}
+
+.container2{
+    display: flex;
+}
+
+.illustration2{
+    position: absolute;
+    top: 1261px;
+
+}
+
+.text2{
+    position: absolute;
+    width: 935px;
+    height: 689px;
+    left: 900px;
+    top: 1491px;
+
+    
+    
+}
+
+.text2 h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+}
+
+.text2 p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+}
+
+.button2 button{
+    position: absolute;
+    width: 367.19px;
+    height: 106px;
+    left: 884px;
+    top: 2312px;
+
+    background: #298E5C;
+    border-radius: 26.6304px;
+    border: 0px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.9456px;
+
+    color: #CBDFCF;
+}
+
+.container3{
+    display: flex;
+}
+
+.text3{
+    position: absolute;
+    width: 917px;
+    height: 275px;
+    left: 289px;
+    top: 2917px;
+}
+
+.text3 h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+}
+
+.text3 p {
+
+    position: absolute;
+    width: 851px;
+    height: 112px;
+    left: 66px;
+    top: 166px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: right;
+}
+
+.illustration3{
+    position: absolute;
+    width: 696.1px;
+    height: 597.6px;
+    left: 1138px;
+    top: 2863px;
+}
+
+.Contribute button{
+    position: absolute;
+    width: 318.19px;
+    height: 106px;
+    left: 888px;
+    top: 3291px;
+
+    background: #298E5C;
+    border-radius: 26.6304px;
+    border: 0px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.9456px;
+    line-height: 51px;
+    color: #CBDFCF;
+}
+
+.container4{
+    display: flex;
+}
+
+.illustration4{
+    position: absolute;
+    width: 525.62px;
+    height: 442.1px;
+    left: 109px;
+    top: 3719px;
+}
+
+.text4{
+    position: absolute;
+    width: 1012px;
+    height: 404px;
+    left: 700px;
+    top: 3801PX;
+
+}
+
+.text4 p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;  
+}
+
+.about button{
+    position: absolute;
+    width: 227.19px;
+    height: 106px;
+    left: 700px;
+    top: 4050px;
+
+    background: #298E5C;
+    border-radius: 26.6304px;
+    border: 0px;
+
+    
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.9456px;
+    line-height: 51px;
+    color: #CBDFCF;
+}
+
+.text5{
+    position: absolute;
+    width: 519px;
+    height: 82px;
+    left: 308px;
+    top: 4628px; 
+}
+
+.text5 h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+}
+
+.download2 button{
+    position: absolute;
+    width: 299.19px;
+    height: 106px;
+    left: 528px;
+    top: 4790px;
+
+    background: #298E5C;
+    border-radius: 26.6304px;
+    border: 0px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.9456px;
+    line-height: 51px;
+    color: #CBDFCF;
+}
+
+.illustration5{
+    position: absolute;
+    width: 1219.18px;
+    height: 947px;
+    left: 672px;
+    top: 4300px;   
+}
+
+.container6{
+    display: flex;
+}
+
+.text6{
+    position: absolute;
+    width: 456px;
+    height: 61px;
+    left: 991px;
+    top: 5447px;
+}
+
+.text6 h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #171717;
+}
+
+.illustration6{
+    position: absolute;
+    width: 815px;
+    height: 1066.89px;
+    left: 125px;
+    top: 5051px;    
+}
+
+.fromArea{
+    position:absolute;
+    top:5543px;
+    left:991px;
+}
+
+.in1 input{
+    width: 640px;
+    height: 95px; 
+    margin-bottom: 40px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 31px;
+    color: #989898;
+}
+
+.in2 textarea{
+    width: 640px;
+    height: 305px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 31px;
+    padding-top: 31px;
+    color: #989898;
+}
+
+.send button{
+    position: absolute;
+    width: 285px;
+    height: 106px;
+    left: 1383px;
+    top: 6197px;
+
+    background: #298E5C;
+    border-radius: 26.6304px;
+    border: 0px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.9456px;
+    line-height: 51px; 
+    color: #CBDFCF;
+}
+
+footer{
+    position: absolute;
+    top: 6615px;
+    width: 1920px;
+    height: 540px;
+    background-color: #f8f8f8;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.linkset1{
+    position: absolute;
+    left: 253px;
+    top: 106px;
+}
+
+.linkset1 span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #171717;
+}
+
+.linkset1 span, a{
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.linkset1 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #171717;
+}
+
+.linkset2 span, a{
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.linkset2{
+    position: absolute;
+    top: 106px;
+    left: 577px;
+}
+
+.linkset2 span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #171717;
+    margin-bottom: 15px;
+}
+
+.linkset2 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #171717;
+}
+
+.copywrite{
+    position: absolute;
+    top: 468px ;
+    left: 263px ;
+}
+
+.copywrite span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;  
+}
+
+.news{
+    position: absolute;
+    width: 640px;
+    height: 206px;
+    left: 991px;
+    top: 124px;
+}
+
+.news h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.3333px;
+    line-height: 59px;
+    color: #75CC9C;
+    margin-bottom: 52px;
+}
+
+.inemail input{
+    width: 640px;
+    height: 95px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #75CC9C;
+    padding-left: 31px;
+}
+
+.devoart{
+    position: absolute;
+    width: 251px;
+    height: 36px;
+    left: 1365px;
+    top: 468px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.emsend{
+    position: absolute;
+    left: 594px;
+    top: 128px;
+}
+
+.emsend button{
+    background-color: #00000000;
+    border: 0px;
+}
